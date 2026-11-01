@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "actionsfabric",
+  "version": "1.0.0",
+  "name": "Actions Fabric",
+  "description": "Client-side Bedrock Actions and Stuff style movement animations.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.actionsfabric.ActionsClient"]
+  },
+  "mixins": ["actionsfabric.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

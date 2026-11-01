@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.example.actionsfabric.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["HumanoidModelMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
